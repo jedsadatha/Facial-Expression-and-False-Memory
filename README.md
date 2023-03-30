@@ -2,8 +2,11 @@
 
 ## Information about Researcher
 > Name: Jedsada Thavornfung
+
 > B.S, Psychology, Psychology Department
+
 > The University of Texas at Austin
+
 > Supervisor: David L Gilden
 
 ## Abstract
