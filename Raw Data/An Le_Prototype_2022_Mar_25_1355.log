@@ -1,0 +1,901 @@
+1.7126 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+35.6734 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9c25b659e8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9c245e54e0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+35.6738 	EXP 	window1: mouseVisible = True
+35.6739 	EXP 	window1: recordFrameIntervals = False
+35.8390 	EXP 	window1: recordFrameIntervals = True
+35.9601 	WARNING 	t of last frame was 20.80ms (=1/48)
+36.0264 	WARNING 	t of last frame was 20.13ms (=1/49)
+36.2098 	WARNING 	t of last frame was 20.10ms (=1/49)
+36.3893 	EXP 	window1: recordFrameIntervals = False
+37.3760 	EXP 	Created intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.5639 	EXP 	Created count3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='count3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.5652 	EXP 	Created count2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='count2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.5665 	EXP 	Created Count1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Count1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.5677 	EXP 	Created CountGo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='CountGo', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.5734 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+37.5747 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7490 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.  , 0.75]), texRes=128.0, units='height', win=Window(...))
+37.7504 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.9295 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you!', units='height', win=Window(...), wrapWidth=1)
+37.9534 	EXP 	intro: autoDraw = True
+53.4427 	EXP 	Imported ImageList.xlsx as conditions, 6 conditions, 2 params
+53.4438 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+53.4444 	EXP 	New trial (rep=0, index=0): {'PicSet': 'ImageShowSet6.xlsx', 'AnsSet': 'ImageAnsSet6.xlsx'}
+53.4663 	DATA 	Keypress: space
+53.4800 	EXP 	intro: autoDraw = False
+53.4800 	EXP 	count3: text = '3'
+53.4800 	EXP 	count2: text = '2'
+53.4800 	EXP 	Count1: text = '1'
+53.4800 	EXP 	CountGo: text = 'Go'
+53.4800 	EXP 	count3: autoDraw = True
+54.4561 	EXP 	count2: autoDraw = True
+54.4888 	EXP 	count3: autoDraw = False
+55.4553 	EXP 	count2: autoDraw = False
+55.4553 	EXP 	Count1: autoDraw = True
+56.4553 	EXP 	Count1: autoDraw = False
+56.4553 	EXP 	CountGo: autoDraw = True
+57.4571 	EXP 	Imported ImageShowSet6.xlsx as conditions, 6 conditions, 1 params
+57.4578 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+57.4582 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/M24M.jpg'}
+57.6586 	EXP 	count3: autoDraw = False
+57.6586 	EXP 	count2: autoDraw = False
+57.6586 	EXP 	Count1: autoDraw = False
+57.6586 	EXP 	CountGo: autoDraw = False
+57.6586 	EXP 	image_2: image = 'Pictures/M24M.jpg'
+57.6586 	EXP 	image_2: autoDraw = True
+58.9402 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/F22M.jpg'}
+59.0803 	EXP 	image_2: autoDraw = False
+59.0803 	EXP 	image_2: image = 'Pictures/F22M.jpg'
+59.0803 	EXP 	image_2: autoDraw = True
+60.4398 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/F24M.jpg'}
+60.5756 	EXP 	image_2: autoDraw = False
+60.5756 	EXP 	image_2: image = 'Pictures/F24M.jpg'
+60.5756 	EXP 	image_2: autoDraw = True
+61.9399 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/M22M.jpg'}
+62.0766 	EXP 	image_2: autoDraw = False
+62.0766 	EXP 	image_2: image = 'Pictures/M22M.jpg'
+62.0766 	EXP 	image_2: autoDraw = True
+63.4397 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/M23A.jpg'}
+63.5782 	EXP 	image_2: autoDraw = False
+63.5782 	EXP 	image_2: image = 'Pictures/M23A.jpg'
+63.5782 	EXP 	image_2: autoDraw = True
+64.9398 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/F23A.jpg'}
+65.0849 	EXP 	image_2: autoDraw = False
+65.0849 	EXP 	image_2: image = 'Pictures/F23A.jpg'
+65.0849 	EXP 	image_2: autoDraw = True
+66.4754 	EXP 	image_2: autoDraw = False
+66.4754 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+66.4754 	EXP 	text_3: autoDraw = True
+95.6390 	EXP 	Imported ImageAnsSet6.xlsx as conditions, 12 conditions, 2 params
+95.6396 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+95.6401 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/F22M.jpg', 'Correct': 'o'}
+95.7661 	DATA 	Keypress: space
+95.7876 	EXP 	text_3: autoDraw = False
+95.7876 	EXP 	image: image = 'Pictures/F22M.jpg'
+95.7876 	EXP 	image: autoDraw = True
+97.1708 	EXP 	image: autoDraw = False
+97.1708 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+97.1708 	EXP 	text_2: autoDraw = True
+102.6744 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/F23A.jpg', 'Correct': 'o'}
+102.8117 	DATA 	Keypress: o
+102.8265 	EXP 	text_2: autoDraw = False
+102.8265 	EXP 	image: image = 'Pictures/F23A.jpg'
+102.8265 	EXP 	image: autoDraw = True
+104.2049 	EXP 	image: autoDraw = False
+104.2049 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+104.2049 	EXP 	text_2: autoDraw = True
+106.7234 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/F22A.jpg', 'Correct': 'n'}
+106.8773 	DATA 	Keypress: o
+106.8907 	EXP 	text_2: autoDraw = False
+106.8907 	EXP 	image: image = 'Pictures/F22A.jpg'
+106.8907 	EXP 	image: autoDraw = True
+108.2548 	EXP 	image: autoDraw = False
+108.2548 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+108.2548 	EXP 	text_2: autoDraw = True
+108.4570 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/M22A.jpg', 'Correct': 'n'}
+108.5898 	DATA 	Keypress: n
+108.6038 	EXP 	text_2: autoDraw = False
+108.6038 	EXP 	image: image = 'Pictures/M22A.jpg'
+108.6038 	EXP 	image: autoDraw = True
+109.9880 	EXP 	image: autoDraw = False
+109.9880 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+109.9880 	EXP 	text_2: autoDraw = True
+110.4738 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/M22M.jpg', 'Correct': 'o'}
+110.5969 	DATA 	Keypress: n
+110.6100 	EXP 	text_2: autoDraw = False
+110.6100 	EXP 	image: image = 'Pictures/M22M.jpg'
+110.6100 	EXP 	image: autoDraw = True
+112.0049 	EXP 	image: autoDraw = False
+112.0049 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+112.0049 	EXP 	text_2: autoDraw = True
+112.7072 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F24A.jpg', 'Correct': 'n'}
+112.8496 	DATA 	Keypress: o
+112.8633 	EXP 	text_2: autoDraw = False
+112.8633 	EXP 	image: image = 'Pictures/F24A.jpg'
+112.8633 	EXP 	image: autoDraw = True
+114.2382 	EXP 	image: autoDraw = False
+114.2382 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+114.2382 	EXP 	text_2: autoDraw = True
+116.9574 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/M24A.jpg', 'Correct': 'n'}
+117.0855 	DATA 	Keypress: n
+117.0987 	EXP 	text_2: autoDraw = False
+117.0987 	EXP 	image: image = 'Pictures/M24A.jpg'
+117.0987 	EXP 	image: autoDraw = True
+118.4881 	EXP 	image: autoDraw = False
+118.4881 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+118.4881 	EXP 	text_2: autoDraw = True
+121.8902 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/M23A.jpg', 'Correct': 'o'}
+122.0140 	DATA 	Keypress: n
+122.0271 	EXP 	text_2: autoDraw = False
+122.0271 	EXP 	image: image = 'Pictures/M23A.jpg'
+122.0271 	EXP 	image: autoDraw = True
+123.4219 	EXP 	image: autoDraw = False
+123.4219 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+123.4219 	EXP 	text_2: autoDraw = True
+123.9234 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/F23M.jpg', 'Correct': 'n'}
+124.0487 	DATA 	Keypress: n
+124.0619 	EXP 	text_2: autoDraw = False
+124.0619 	EXP 	image: image = 'Pictures/F23M.jpg'
+124.0619 	EXP 	image: autoDraw = True
+125.4553 	EXP 	image: autoDraw = False
+125.4553 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+125.4553 	EXP 	text_2: autoDraw = True
+126.3560 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/M24M.jpg', 'Correct': 'o'}
+126.4808 	DATA 	Keypress: n
+126.4941 	EXP 	text_2: autoDraw = False
+126.4941 	EXP 	image: image = 'Pictures/M24M.jpg'
+126.4941 	EXP 	image: autoDraw = True
+127.8721 	EXP 	image: autoDraw = False
+127.8721 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+127.8721 	EXP 	text_2: autoDraw = True
+128.2726 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/M23M.jpg', 'Correct': 'n'}
+128.4033 	DATA 	Keypress: o
+128.4168 	EXP 	text_2: autoDraw = False
+128.4168 	EXP 	image: image = 'Pictures/M23M.jpg'
+128.4168 	EXP 	image: autoDraw = True
+129.8045 	EXP 	image: autoDraw = False
+129.8045 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+129.8045 	EXP 	text_2: autoDraw = True
+130.2398 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/F24M.jpg', 'Correct': 'o'}
+130.3782 	DATA 	Keypress: o
+130.3916 	EXP 	text_2: autoDraw = False
+130.3916 	EXP 	image: image = 'Pictures/F24M.jpg'
+130.3916 	EXP 	image: autoDraw = True
+131.7711 	EXP 	image: autoDraw = False
+131.7711 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+131.7711 	EXP 	text_2: autoDraw = True
+132.2728 	EXP 	New trial (rep=0, index=1): {'PicSet': 'ImageShowSet4.xlsx', 'AnsSet': 'ImageAnsSet4.xlsx'}
+132.2763 	DATA 	Keypress: o
+132.2883 	EXP 	text_2: autoDraw = False
+132.2883 	EXP 	count3: text = '3'
+132.2883 	EXP 	count2: text = '2'
+132.2883 	EXP 	Count1: text = '1'
+132.2883 	EXP 	CountGo: text = 'Go'
+132.2883 	EXP 	count3: autoDraw = True
+133.2715 	EXP 	count2: autoDraw = True
+133.2877 	EXP 	count3: autoDraw = False
+134.2709 	EXP 	count2: autoDraw = False
+134.2709 	EXP 	Count1: autoDraw = True
+135.2710 	EXP 	Count1: autoDraw = False
+135.2710 	EXP 	CountGo: autoDraw = True
+136.2716 	EXP 	Imported ImageShowSet4.xlsx as conditions, 6 conditions, 1 params
+136.2723 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+136.2727 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/M25A.jpg'}
+136.4293 	EXP 	CountGo: autoDraw = False
+136.4293 	EXP 	count3: autoDraw = False
+136.4293 	EXP 	count2: autoDraw = False
+136.4293 	EXP 	Count1: autoDraw = False
+136.4293 	EXP 	CountGo: autoDraw = False
+136.4293 	EXP 	image_2: image = 'Pictures/M25A.jpg'
+136.4293 	EXP 	image_2: autoDraw = True
+137.7898 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/F27A.jpg'}
+137.9695 	EXP 	image_2: autoDraw = False
+137.9695 	EXP 	image_2: image = 'Pictures/F27A.jpg'
+137.9695 	EXP 	image_2: autoDraw = True
+139.2901 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/F26M.jpg'}
+139.4384 	EXP 	image_2: autoDraw = False
+139.4384 	EXP 	image_2: image = 'Pictures/F26M.jpg'
+139.4384 	EXP 	image_2: autoDraw = True
+140.7892 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/M26M.jpg'}
+140.9375 	EXP 	image_2: autoDraw = False
+140.9375 	EXP 	image_2: image = 'Pictures/M26M.jpg'
+140.9375 	EXP 	image_2: autoDraw = True
+142.2890 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/M27A.jpg'}
+142.4386 	EXP 	image_2: autoDraw = False
+142.4386 	EXP 	image_2: image = 'Pictures/M27A.jpg'
+142.4386 	EXP 	image_2: autoDraw = True
+143.7890 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/F25A.jpg'}
+143.9520 	EXP 	image_2: autoDraw = False
+143.9520 	EXP 	image_2: image = 'Pictures/F25A.jpg'
+143.9520 	EXP 	image_2: autoDraw = True
+145.3052 	EXP 	image_2: autoDraw = False
+145.3052 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+145.3052 	EXP 	text_3: autoDraw = True
+146.6905 	EXP 	Imported ImageAnsSet4.xlsx as conditions, 12 conditions, 2 params
+146.6911 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+146.6915 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/F25A.jpg', 'Correct': 'o'}
+146.8402 	DATA 	Keypress: space
+146.8540 	EXP 	text_3: autoDraw = False
+146.8540 	EXP 	image: image = 'Pictures/F25A.jpg'
+146.8540 	EXP 	image: autoDraw = True
+148.2066 	EXP 	image: autoDraw = False
+148.2066 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+148.2066 	EXP 	text_2: autoDraw = True
+148.3405 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/F26A.jpg', 'Correct': 'n'}
+148.4999 	DATA 	Keypress: o
+148.5131 	EXP 	text_2: autoDraw = False
+148.5131 	EXP 	image: image = 'Pictures/F26A.jpg'
+148.5131 	EXP 	image: autoDraw = True
+149.8714 	EXP 	image: autoDraw = False
+149.8714 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+149.8714 	EXP 	text_2: autoDraw = True
+150.3391 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/M25M.jpg', 'Correct': 'n'}
+150.4751 	DATA 	Keypress: n
+150.4888 	EXP 	text_2: autoDraw = False
+150.4888 	EXP 	image: image = 'Pictures/M25M.jpg'
+150.4888 	EXP 	image: autoDraw = True
+151.8710 	EXP 	image: autoDraw = False
+151.8710 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+151.8710 	EXP 	text_2: autoDraw = True
+152.6056 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/F26M.jpg', 'Correct': 'o'}
+152.7392 	DATA 	Keypress: n
+152.7526 	EXP 	text_2: autoDraw = False
+152.7526 	EXP 	image: image = 'Pictures/F26M.jpg'
+152.7526 	EXP 	image: autoDraw = True
+154.1375 	EXP 	image: autoDraw = False
+154.1375 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+154.1375 	EXP 	text_2: autoDraw = True
+154.6224 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/F25M.jpg', 'Correct': 'n'}
+154.7576 	DATA 	Keypress: n
+154.7714 	EXP 	text_2: autoDraw = False
+154.7714 	EXP 	image: image = 'Pictures/F25M.jpg'
+154.7714 	EXP 	image: autoDraw = True
+156.1550 	EXP 	image: autoDraw = False
+156.1550 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+156.1550 	EXP 	text_2: autoDraw = True
+157.4398 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F27A.jpg', 'Correct': 'o'}
+157.6001 	DATA 	Keypress: n
+157.6135 	EXP 	text_2: autoDraw = False
+157.6135 	EXP 	image: image = 'Pictures/F27A.jpg'
+157.6135 	EXP 	image: autoDraw = True
+158.9707 	EXP 	image: autoDraw = False
+158.9707 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+158.9707 	EXP 	text_2: autoDraw = True
+160.1062 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/M27M.jpg', 'Correct': 'n'}
+160.2411 	DATA 	Keypress: o
+160.2549 	EXP 	text_2: autoDraw = False
+160.2549 	EXP 	image: image = 'Pictures/M27M.jpg'
+160.2549 	EXP 	image: autoDraw = True
+161.6374 	EXP 	image: autoDraw = False
+161.6374 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+161.6374 	EXP 	text_2: autoDraw = True
+162.4061 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/M27A.jpg', 'Correct': 'o'}
+162.5436 	DATA 	Keypress: n
+162.5572 	EXP 	text_2: autoDraw = False
+162.5572 	EXP 	image: image = 'Pictures/M27A.jpg'
+162.5572 	EXP 	image: autoDraw = True
+163.9380 	EXP 	image: autoDraw = False
+163.9380 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+163.9380 	EXP 	text_2: autoDraw = True
+164.5223 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/M26A.jpg', 'Correct': 'n'}
+164.6473 	DATA 	Keypress: o
+164.6604 	EXP 	text_2: autoDraw = False
+164.6604 	EXP 	image: image = 'Pictures/M26A.jpg'
+164.6604 	EXP 	image: autoDraw = True
+166.0541 	EXP 	image: autoDraw = False
+166.0541 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+166.0541 	EXP 	text_2: autoDraw = True
+167.5056 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/M26M.jpg', 'Correct': 'o'}
+167.6385 	DATA 	Keypress: o
+167.6522 	EXP 	text_2: autoDraw = False
+167.6522 	EXP 	image: image = 'Pictures/M26M.jpg'
+167.6522 	EXP 	image: autoDraw = True
+169.0219 	EXP 	image: autoDraw = False
+169.0219 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+169.0219 	EXP 	text_2: autoDraw = True
+169.7225 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/F27M.jpg', 'Correct': 'n'}
+169.8580 	DATA 	Keypress: o
+169.8718 	EXP 	text_2: autoDraw = False
+169.8718 	EXP 	image: image = 'Pictures/F27M.jpg'
+169.8718 	EXP 	image: autoDraw = True
+171.2544 	EXP 	image: autoDraw = False
+171.2544 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+171.2544 	EXP 	text_2: autoDraw = True
+172.8223 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/M25A.jpg', 'Correct': 'o'}
+172.9591 	DATA 	Keypress: n
+172.9726 	EXP 	text_2: autoDraw = False
+172.9726 	EXP 	image: image = 'Pictures/M25A.jpg'
+172.9726 	EXP 	image: autoDraw = True
+174.3381 	EXP 	image: autoDraw = False
+174.3381 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+174.3381 	EXP 	text_2: autoDraw = True
+174.9229 	EXP 	New trial (rep=0, index=2): {'PicSet': 'ImageShowSet5.xlsx', 'AnsSet': 'ImageAnsSet5.xlsx'}
+174.9266 	DATA 	Keypress: o
+174.9397 	EXP 	text_2: autoDraw = False
+174.9397 	EXP 	count3: text = '3'
+174.9397 	EXP 	count2: text = '2'
+174.9397 	EXP 	Count1: text = '1'
+174.9397 	EXP 	CountGo: text = 'Go'
+174.9397 	EXP 	count3: autoDraw = True
+175.9209 	EXP 	count2: autoDraw = True
+175.9540 	EXP 	count3: autoDraw = False
+176.9220 	EXP 	count2: autoDraw = False
+176.9220 	EXP 	Count1: autoDraw = True
+177.9211 	EXP 	CountGo: autoDraw = True
+177.9370 	EXP 	Count1: autoDraw = False
+178.9169 	EXP 	Imported ImageShowSet5.xlsx as conditions, 6 conditions, 1 params
+178.9176 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+178.9179 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/M6M.jpg'}
+179.0818 	EXP 	CountGo: autoDraw = False
+179.0818 	EXP 	count3: autoDraw = False
+179.0818 	EXP 	count2: autoDraw = False
+179.0818 	EXP 	Count1: autoDraw = False
+179.0818 	EXP 	CountGo: autoDraw = False
+179.0818 	EXP 	image_2: image = 'Pictures/M6M.jpg'
+179.0818 	EXP 	image_2: autoDraw = True
+180.4396 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/F8M.jpg'}
+180.5951 	EXP 	image_2: autoDraw = False
+180.5951 	EXP 	image_2: image = 'Pictures/F8M.jpg'
+180.5951 	EXP 	image_2: autoDraw = True
+181.9400 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/M8M.jpg'}
+182.0893 	EXP 	image_2: autoDraw = False
+182.0893 	EXP 	image_2: image = 'Pictures/M8M.jpg'
+182.0893 	EXP 	image_2: autoDraw = True
+183.4396 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/F6M.jpg'}
+183.5878 	EXP 	image_2: autoDraw = False
+183.5878 	EXP 	image_2: image = 'Pictures/F6M.jpg'
+183.5878 	EXP 	image_2: autoDraw = True
+184.9398 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/M7A.jpg'}
+185.0909 	EXP 	image_2: autoDraw = False
+185.0909 	EXP 	image_2: image = 'Pictures/M7A.jpg'
+185.0909 	EXP 	image_2: autoDraw = True
+186.4236 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/F7A.jpg'}
+186.6060 	EXP 	image_2: autoDraw = False
+186.6060 	EXP 	image_2: image = 'Pictures/F7A.jpg'
+186.6060 	EXP 	image_2: autoDraw = True
+187.9398 	EXP 	image_2: autoDraw = False
+187.9398 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+187.9398 	EXP 	text_3: autoDraw = True
+188.9044 	EXP 	Imported ImageAnsSet5.xlsx as conditions, 12 conditions, 2 params
+188.9053 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+188.9060 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/M7M.jpg', 'Correct': 'n'}
+189.0489 	DATA 	Keypress: space
+189.0638 	EXP 	text_3: autoDraw = False
+189.0638 	EXP 	image: image = 'Pictures/M7M.jpg'
+189.0638 	EXP 	image: autoDraw = True
+190.4229 	EXP 	image: autoDraw = False
+190.4229 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+190.4229 	EXP 	text_2: autoDraw = True
+190.9399 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/M8A.jpg', 'Correct': 'n'}
+191.0768 	DATA 	Keypress: n
+191.0906 	EXP 	text_2: autoDraw = False
+191.0906 	EXP 	image: image = 'Pictures/M8A.jpg'
+191.0906 	EXP 	image: autoDraw = True
+192.4719 	EXP 	image: autoDraw = False
+192.4719 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+192.4719 	EXP 	text_2: autoDraw = True
+192.8892 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/F6M.jpg', 'Correct': 'o'}
+193.0309 	DATA 	Keypress: o
+193.0323 	DATA 	Keypress: n
+193.0455 	EXP 	text_2: autoDraw = False
+193.0455 	EXP 	image: image = 'Pictures/F6M.jpg'
+193.0455 	EXP 	image: autoDraw = True
+194.4207 	EXP 	image: autoDraw = False
+194.4207 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+194.4207 	EXP 	text_2: autoDraw = True
+194.8895 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/F7A.jpg', 'Correct': 'o'}
+195.0556 	DATA 	Keypress: o
+195.0694 	EXP 	text_2: autoDraw = False
+195.0694 	EXP 	image: image = 'Pictures/F7A.jpg'
+195.0694 	EXP 	image: autoDraw = True
+196.4209 	EXP 	image: autoDraw = False
+196.4209 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+196.4209 	EXP 	text_2: autoDraw = True
+196.9053 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/F8A.jpg', 'Correct': 'n'}
+197.0724 	DATA 	Keypress: o
+197.0862 	EXP 	text_2: autoDraw = False
+197.0862 	EXP 	image: image = 'Pictures/F8A.jpg'
+197.0862 	EXP 	image: autoDraw = True
+198.4377 	EXP 	image: autoDraw = False
+198.4377 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+198.4377 	EXP 	text_2: autoDraw = True
+198.9883 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F6A.jpg', 'Correct': 'n'}
+199.1581 	DATA 	Keypress: n
+199.1717 	EXP 	text_2: autoDraw = False
+199.1717 	EXP 	image: image = 'Pictures/F6A.jpg'
+199.1717 	EXP 	image: autoDraw = True
+200.5049 	EXP 	image: autoDraw = False
+200.5049 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+200.5049 	EXP 	text_2: autoDraw = True
+200.8574 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/M6M.jpg', 'Correct': 'o'}
+201.0018 	DATA 	Keypress: n
+201.0156 	EXP 	text_2: autoDraw = False
+201.0156 	EXP 	image: image = 'Pictures/M6M.jpg'
+201.0156 	EXP 	image: autoDraw = True
+202.3883 	EXP 	image: autoDraw = False
+202.3883 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+202.3883 	EXP 	text_2: autoDraw = True
+203.4052 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/M8M.jpg', 'Correct': 'o'}
+203.5437 	DATA 	Keypress: o
+203.5575 	EXP 	text_2: autoDraw = False
+203.5575 	EXP 	image: image = 'Pictures/M8M.jpg'
+203.5575 	EXP 	image: autoDraw = True
+204.9375 	EXP 	image: autoDraw = False
+204.9375 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+204.9375 	EXP 	text_2: autoDraw = True
+205.5051 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/F8M.jpg', 'Correct': 'o'}
+205.6433 	DATA 	Keypress: n
+205.6570 	EXP 	text_2: autoDraw = False
+205.6570 	EXP 	image: image = 'Pictures/F8M.jpg'
+205.6570 	EXP 	image: autoDraw = True
+207.0225 	EXP 	image: autoDraw = False
+207.0225 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+207.0225 	EXP 	text_2: autoDraw = True
+207.4389 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/M6A.jpg', 'Correct': 'n'}
+207.5880 	DATA 	Keypress: o
+207.6029 	EXP 	text_2: autoDraw = False
+207.6029 	EXP 	image: image = 'Pictures/M6A.jpg'
+207.6029 	EXP 	image: autoDraw = True
+208.9715 	EXP 	image: autoDraw = False
+208.9715 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+208.9715 	EXP 	text_2: autoDraw = True
+209.8385 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/M7A.jpg', 'Correct': 'o'}
+209.9764 	DATA 	Keypress: o
+209.9900 	EXP 	text_2: autoDraw = False
+209.9900 	EXP 	image: image = 'Pictures/M7A.jpg'
+209.9900 	EXP 	image: autoDraw = True
+211.3551 	EXP 	image: autoDraw = False
+211.3551 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+211.3551 	EXP 	text_2: autoDraw = True
+212.0558 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/F7M.jpg', 'Correct': 'n'}
+212.1949 	DATA 	Keypress: o
+212.2084 	EXP 	text_2: autoDraw = False
+212.2084 	EXP 	image: image = 'Pictures/F7M.jpg'
+212.2084 	EXP 	image: autoDraw = True
+213.5884 	EXP 	image: autoDraw = False
+213.5884 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+213.5884 	EXP 	text_2: autoDraw = True
+214.7384 	EXP 	New trial (rep=0, index=3): {'PicSet': 'ImageShowSet2.xlsx', 'AnsSet': 'ImageAnsSet2.xlsx'}
+214.7419 	DATA 	Keypress: n
+214.7542 	EXP 	text_2: autoDraw = False
+214.7542 	EXP 	count3: text = '3'
+214.7542 	EXP 	count2: text = '2'
+214.7542 	EXP 	Count1: text = '1'
+214.7542 	EXP 	CountGo: text = 'Go'
+214.7542 	EXP 	count3: autoDraw = True
+215.7378 	EXP 	count2: autoDraw = True
+215.7539 	EXP 	count3: autoDraw = False
+216.7373 	EXP 	Count1: autoDraw = True
+216.7535 	EXP 	count2: autoDraw = False
+217.7366 	EXP 	Count1: autoDraw = False
+217.7366 	EXP 	CountGo: autoDraw = True
+218.7368 	EXP 	Imported ImageShowSet2.xlsx as conditions, 6 conditions, 1 params
+218.7375 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+218.7378 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/F11A.jpg'}
+218.9140 	EXP 	CountGo: autoDraw = False
+218.9140 	EXP 	count3: autoDraw = False
+218.9140 	EXP 	count2: autoDraw = False
+218.9140 	EXP 	Count1: autoDraw = False
+218.9140 	EXP 	CountGo: autoDraw = False
+218.9140 	EXP 	image_2: image = 'Pictures/F11A.jpg'
+218.9140 	EXP 	image_2: autoDraw = True
+220.2407 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/M11A.jpg'}
+220.3980 	EXP 	image_2: autoDraw = False
+220.3980 	EXP 	image_2: image = 'Pictures/M11A.jpg'
+220.3980 	EXP 	image_2: autoDraw = True
+221.7397 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/F10M.jpg'}
+221.8880 	EXP 	image_2: autoDraw = False
+221.8880 	EXP 	image_2: image = 'Pictures/F10M.jpg'
+221.8880 	EXP 	image_2: autoDraw = True
+223.2557 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/M10M.jpg'}
+223.4087 	EXP 	image_2: autoDraw = False
+223.4087 	EXP 	image_2: image = 'Pictures/M10M.jpg'
+223.4087 	EXP 	image_2: autoDraw = True
+224.7554 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/F9A.jpg'}
+224.9161 	EXP 	image_2: autoDraw = False
+224.9161 	EXP 	image_2: image = 'Pictures/F9A.jpg'
+224.9161 	EXP 	image_2: autoDraw = True
+226.2557 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/M9A.jpg'}
+226.4200 	EXP 	image_2: autoDraw = False
+226.4200 	EXP 	image_2: image = 'Pictures/M9A.jpg'
+226.4200 	EXP 	image_2: autoDraw = True
+227.7715 	EXP 	image_2: autoDraw = False
+227.7715 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+227.7715 	EXP 	text_3: autoDraw = True
+228.9697 	EXP 	Imported ImageAnsSet2.xlsx as conditions, 12 conditions, 2 params
+228.9703 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+228.9708 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/M11A.jpg', 'Correct': 'o'}
+229.1154 	DATA 	Keypress: space
+229.1305 	EXP 	text_3: autoDraw = False
+229.1305 	EXP 	image: image = 'Pictures/M11A.jpg'
+229.1305 	EXP 	image: autoDraw = True
+230.4735 	EXP 	image: autoDraw = False
+230.4735 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+230.4735 	EXP 	text_2: autoDraw = True
+230.7389 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/F10A.jpg', 'Correct': 'n'}
+230.8894 	DATA 	Keypress: o
+230.9031 	EXP 	text_2: autoDraw = False
+230.9031 	EXP 	image: image = 'Pictures/F10A.jpg'
+230.9031 	EXP 	image: autoDraw = True
+232.2703 	EXP 	image: autoDraw = False
+232.2703 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+232.2703 	EXP 	text_2: autoDraw = True
+232.6554 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/F9M.jpg', 'Correct': 'n'}
+232.8040 	DATA 	Keypress: n
+232.8177 	EXP 	text_2: autoDraw = False
+232.8177 	EXP 	image: image = 'Pictures/F9M.jpg'
+232.8177 	EXP 	image: autoDraw = True
+234.1869 	EXP 	image: autoDraw = False
+234.1869 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+234.1869 	EXP 	text_2: autoDraw = True
+234.9237 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/M10A.jpg', 'Correct': 'n'}
+235.0996 	DATA 	Keypress: n
+235.1175 	EXP 	text_2: autoDraw = False
+235.1175 	EXP 	image: image = 'Pictures/M10A.jpg'
+235.1175 	EXP 	image: autoDraw = True
+236.4547 	EXP 	image: autoDraw = False
+236.4547 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+236.4547 	EXP 	text_2: autoDraw = True
+236.8717 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/M11M.jpg', 'Correct': 'n'}
+237.0255 	DATA 	Keypress: n
+237.0393 	EXP 	text_2: autoDraw = False
+237.0393 	EXP 	image: image = 'Pictures/M11M.jpg'
+237.0393 	EXP 	image: autoDraw = True
+238.3873 	EXP 	image: autoDraw = False
+238.3873 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+238.3873 	EXP 	text_2: autoDraw = True
+238.7377 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F9A.jpg', 'Correct': 'o'}
+238.9113 	DATA 	Keypress: o
+238.9247 	EXP 	text_2: autoDraw = False
+238.9247 	EXP 	image: image = 'Pictures/F9A.jpg'
+238.9247 	EXP 	image: autoDraw = True
+240.2706 	EXP 	image: autoDraw = False
+240.2706 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+240.2706 	EXP 	text_2: autoDraw = True
+240.6887 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/F10M.jpg', 'Correct': 'o'}
+240.8195 	DATA 	Keypress: o
+240.8331 	EXP 	text_2: autoDraw = False
+240.8331 	EXP 	image: image = 'Pictures/F10M.jpg'
+240.8331 	EXP 	image: autoDraw = True
+242.2204 	EXP 	image: autoDraw = False
+242.2204 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+242.2204 	EXP 	text_2: autoDraw = True
+242.6555 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/F11M.jpg', 'Correct': 'n'}
+242.7951 	DATA 	Keypress: o
+242.8083 	EXP 	text_2: autoDraw = False
+242.8083 	EXP 	image: image = 'Pictures/F11M.jpg'
+242.8083 	EXP 	image: autoDraw = True
+244.1871 	EXP 	image: autoDraw = False
+244.1871 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+244.1871 	EXP 	text_2: autoDraw = True
+244.6051 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/F11A.jpg', 'Correct': 'o'}
+244.7496 	DATA 	Keypress: o
+244.7629 	EXP 	text_2: autoDraw = False
+244.7629 	EXP 	image: image = 'Pictures/F11A.jpg'
+244.7629 	EXP 	image: autoDraw = True
+246.1367 	EXP 	image: autoDraw = False
+246.1367 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+246.1367 	EXP 	text_2: autoDraw = True
+246.6891 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/M9M.jpg', 'Correct': 'n'}
+246.8276 	DATA 	Keypress: i
+246.8291 	DATA 	Keypress: o
+246.8425 	EXP 	text_2: autoDraw = False
+246.8425 	EXP 	image: image = 'Pictures/M9M.jpg'
+246.8425 	EXP 	image: autoDraw = True
+248.2207 	EXP 	image: autoDraw = False
+248.2207 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+248.2207 	EXP 	text_2: autoDraw = True
+248.5715 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/M9A.jpg', 'Correct': 'o'}
+248.7290 	DATA 	Keypress: n
+248.7439 	EXP 	text_2: autoDraw = False
+248.7439 	EXP 	image: image = 'Pictures/M9A.jpg'
+248.7439 	EXP 	image: autoDraw = True
+250.1040 	EXP 	image: autoDraw = False
+250.1040 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+250.1040 	EXP 	text_2: autoDraw = True
+250.4212 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/M10M.jpg', 'Correct': 'o'}
+250.5689 	DATA 	Keypress: o
+250.5827 	EXP 	text_2: autoDraw = False
+250.5827 	EXP 	image: image = 'Pictures/M10M.jpg'
+250.5827 	EXP 	image: autoDraw = True
+251.9387 	EXP 	image: autoDraw = False
+251.9387 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+251.9387 	EXP 	text_2: autoDraw = True
+252.8388 	EXP 	New trial (rep=0, index=4): {'PicSet': 'ImageShowSet3.xlsx', 'AnsSet': 'ImageAnsSet3.xlsx'}
+252.8426 	DATA 	Keypress: n
+252.8545 	EXP 	text_2: autoDraw = False
+252.8545 	EXP 	count3: text = '3'
+252.8545 	EXP 	count2: text = '2'
+252.8545 	EXP 	Count1: text = '1'
+252.8545 	EXP 	CountGo: text = 'Go'
+252.8545 	EXP 	count3: autoDraw = True
+253.8367 	EXP 	count2: autoDraw = True
+253.8698 	EXP 	count3: autoDraw = False
+254.8364 	EXP 	count2: autoDraw = False
+254.8364 	EXP 	Count1: autoDraw = True
+255.8364 	EXP 	Count1: autoDraw = False
+255.8364 	EXP 	CountGo: autoDraw = True
+256.8369 	EXP 	Imported ImageShowSet3.xlsx as conditions, 6 conditions, 1 params
+256.8376 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+256.8380 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/F18M.jpg'}
+257.0101 	EXP 	CountGo: autoDraw = False
+257.0101 	EXP 	count3: autoDraw = False
+257.0101 	EXP 	count2: autoDraw = False
+257.0101 	EXP 	Count1: autoDraw = False
+257.0101 	EXP 	CountGo: autoDraw = False
+257.0101 	EXP 	image_2: image = 'Pictures/F18M.jpg'
+257.0101 	EXP 	image_2: autoDraw = True
+258.3562 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/M19A.jpg'}
+258.5110 	EXP 	image_2: autoDraw = False
+258.5110 	EXP 	image_2: image = 'Pictures/M19A.jpg'
+258.5110 	EXP 	image_2: autoDraw = True
+259.8555 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/M17A.jpg'}
+260.0171 	EXP 	image_2: autoDraw = False
+260.0171 	EXP 	image_2: image = 'Pictures/M17A.jpg'
+260.0171 	EXP 	image_2: autoDraw = True
+261.3548 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/F17A.jpg'}
+261.5393 	EXP 	image_2: autoDraw = False
+261.5393 	EXP 	image_2: image = 'Pictures/F17A.jpg'
+261.5393 	EXP 	image_2: autoDraw = True
+262.8554 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/M18M.jpg'}
+263.0167 	EXP 	image_2: autoDraw = False
+263.0167 	EXP 	image_2: image = 'Pictures/M18M.jpg'
+263.0167 	EXP 	image_2: autoDraw = True
+264.3556 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/F19A.jpg'}
+264.5411 	EXP 	image_2: autoDraw = False
+264.5411 	EXP 	image_2: image = 'Pictures/F19A.jpg'
+264.5411 	EXP 	image_2: autoDraw = True
+265.8673 	EXP 	image_2: autoDraw = False
+265.8673 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+265.8673 	EXP 	text_3: autoDraw = True
+266.5875 	EXP 	Imported ImageAnsSet3.xlsx as conditions, 12 conditions, 2 params
+266.5881 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+266.5885 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/M19A.jpg', 'Correct': 'o'}
+266.7333 	DATA 	Keypress: space
+266.7499 	EXP 	text_3: autoDraw = False
+266.7499 	EXP 	image: image = 'Pictures/M19A.jpg'
+266.7499 	EXP 	image: autoDraw = True
+268.1054 	EXP 	image: autoDraw = False
+268.1054 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+268.1054 	EXP 	text_2: autoDraw = True
+269.6891 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/F19M.jpg', 'Correct': 'n'}
+269.8344 	DATA 	Keypress: o
+269.8480 	EXP 	text_2: autoDraw = False
+269.8480 	EXP 	image: image = 'Pictures/F19M.jpg'
+269.8480 	EXP 	image: autoDraw = True
+271.2202 	EXP 	image: autoDraw = False
+271.2202 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+271.2202 	EXP 	text_2: autoDraw = True
+272.2046 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/M19M.jpg', 'Correct': 'n'}
+272.3522 	DATA 	Keypress: o
+272.3661 	EXP 	text_2: autoDraw = False
+272.3661 	EXP 	image: image = 'Pictures/M19M.jpg'
+272.3661 	EXP 	image: autoDraw = True
+273.7213 	EXP 	image: autoDraw = False
+273.7213 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+273.7213 	EXP 	text_2: autoDraw = True
+274.2209 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/M18A.jpg', 'Correct': 'n'}
+274.3634 	DATA 	Keypress: n
+274.3767 	EXP 	text_2: autoDraw = False
+274.3767 	EXP 	image: image = 'Pictures/M18A.jpg'
+274.3767 	EXP 	image: autoDraw = True
+275.7380 	EXP 	image: autoDraw = False
+275.7380 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+275.7380 	EXP 	text_2: autoDraw = True
+276.2216 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/F17A.jpg', 'Correct': 'o'}
+276.3872 	DATA 	Keypress: n
+276.4009 	EXP 	text_2: autoDraw = False
+276.4009 	EXP 	image: image = 'Pictures/F17A.jpg'
+276.4009 	EXP 	image: autoDraw = True
+277.7530 	EXP 	image: autoDraw = False
+277.7530 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+277.7530 	EXP 	text_2: autoDraw = True
+278.1880 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F17M.jpg', 'Correct': 'n'}
+278.3256 	DATA 	Keypress: o
+278.3392 	EXP 	text_2: autoDraw = False
+278.3392 	EXP 	image: image = 'Pictures/F17M.jpg'
+278.3392 	EXP 	image: autoDraw = True
+279.7074 	EXP 	image: autoDraw = False
+279.7074 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+279.7074 	EXP 	text_2: autoDraw = True
+280.1052 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/F18A.jpg', 'Correct': 'n'}
+280.2874 	DATA 	Keypress: n
+280.3011 	EXP 	text_2: autoDraw = False
+280.3011 	EXP 	image: image = 'Pictures/F18A.jpg'
+280.3011 	EXP 	image: autoDraw = True
+281.6377 	EXP 	image: autoDraw = False
+281.6377 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+281.6377 	EXP 	text_2: autoDraw = True
+283.0215 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/M17A.jpg', 'Correct': 'o'}
+283.1589 	DATA 	Keypress: n
+283.1727 	EXP 	text_2: autoDraw = False
+283.1727 	EXP 	image: image = 'Pictures/M17A.jpg'
+283.1727 	EXP 	image: autoDraw = True
+284.5539 	EXP 	image: autoDraw = False
+284.5539 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+284.5539 	EXP 	text_2: autoDraw = True
+285.4547 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/M18M.jpg', 'Correct': 'o'}
+285.5916 	DATA 	Keypress: n
+285.6053 	EXP 	text_2: autoDraw = False
+285.6053 	EXP 	image: image = 'Pictures/M18M.jpg'
+285.6053 	EXP 	image: autoDraw = True
+286.9713 	EXP 	image: autoDraw = False
+286.9713 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+286.9713 	EXP 	text_2: autoDraw = True
+287.3879 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/F19A.jpg', 'Correct': 'o'}
+287.5652 	DATA 	Keypress: n
+287.5786 	EXP 	text_2: autoDraw = False
+287.5786 	EXP 	image: image = 'Pictures/F19A.jpg'
+287.5786 	EXP 	image: autoDraw = True
+288.9207 	EXP 	image: autoDraw = False
+288.9207 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+288.9207 	EXP 	text_2: autoDraw = True
+289.3040 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/F18M.jpg', 'Correct': 'o'}
+289.4468 	DATA 	Keypress: o
+289.4601 	EXP 	text_2: autoDraw = False
+289.4601 	EXP 	image: image = 'Pictures/F18M.jpg'
+289.4601 	EXP 	image: autoDraw = True
+290.8204 	EXP 	image: autoDraw = False
+290.8204 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+290.8204 	EXP 	text_2: autoDraw = True
+291.2372 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/M17M.jpg', 'Correct': 'n'}
+291.3735 	DATA 	Keypress: o
+291.3872 	EXP 	text_2: autoDraw = False
+291.3872 	EXP 	image: image = 'Pictures/M17M.jpg'
+291.3872 	EXP 	image: autoDraw = True
+292.7696 	EXP 	image: autoDraw = False
+292.7696 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+292.7696 	EXP 	text_2: autoDraw = True
+293.1549 	EXP 	New trial (rep=0, index=5): {'PicSet': 'ImageShowSet1.xlsx', 'AnsSet': 'ImageAnsSet1.xlsx'}
+293.1585 	DATA 	Keypress: n
+293.1704 	EXP 	text_2: autoDraw = False
+293.1704 	EXP 	count3: text = '3'
+293.1704 	EXP 	count2: text = '2'
+293.1704 	EXP 	Count1: text = '1'
+293.1704 	EXP 	CountGo: text = 'Go'
+293.1704 	EXP 	count3: autoDraw = True
+294.1531 	EXP 	count2: autoDraw = True
+294.1693 	EXP 	count3: autoDraw = False
+295.1526 	EXP 	count2: autoDraw = False
+295.1526 	EXP 	Count1: autoDraw = True
+296.1525 	EXP 	Count1: autoDraw = False
+296.1525 	EXP 	CountGo: autoDraw = True
+297.1531 	EXP 	Imported ImageShowSet1.xlsx as conditions, 6 conditions, 1 params
+297.1537 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+297.1541 	EXP 	New trial (rep=0, index=0): {'ImageSetShow': 'Pictures/M1A.jpg'}
+297.3133 	EXP 	CountGo: autoDraw = False
+297.3133 	EXP 	count3: autoDraw = False
+297.3133 	EXP 	count2: autoDraw = False
+297.3133 	EXP 	Count1: autoDraw = False
+297.3133 	EXP 	CountGo: autoDraw = False
+297.3133 	EXP 	image_2: image = 'Pictures/M1A.jpg'
+297.3133 	EXP 	image_2: autoDraw = True
+297.7400 	DATA 	Keypress: space
+298.6713 	EXP 	New trial (rep=0, index=1): {'ImageSetShow': 'Pictures/F3A.jpg'}
+298.8528 	EXP 	image_2: autoDraw = False
+298.8528 	EXP 	image_2: image = 'Pictures/F3A.jpg'
+298.8528 	EXP 	image_2: autoDraw = True
+300.1570 	EXP 	New trial (rep=0, index=2): {'ImageSetShow': 'Pictures/M2M.jpg'}
+300.3577 	EXP 	image_2: autoDraw = False
+300.3577 	EXP 	image_2: image = 'Pictures/M2M.jpg'
+300.3577 	EXP 	image_2: autoDraw = True
+301.6558 	EXP 	New trial (rep=0, index=3): {'ImageSetShow': 'Pictures/M3A.jpg'}
+301.8119 	EXP 	image_2: autoDraw = False
+301.8119 	EXP 	image_2: image = 'Pictures/M3A.jpg'
+301.8119 	EXP 	image_2: autoDraw = True
+303.1599 	EXP 	New trial (rep=0, index=4): {'ImageSetShow': 'Pictures/F1A.jpg'}
+303.3536 	EXP 	image_2: autoDraw = False
+303.3536 	EXP 	image_2: image = 'Pictures/F1A.jpg'
+303.3536 	EXP 	image_2: autoDraw = True
+304.6564 	EXP 	New trial (rep=0, index=5): {'ImageSetShow': 'Pictures/F2M.jpg'}
+304.8159 	EXP 	image_2: autoDraw = False
+304.8159 	EXP 	image_2: image = 'Pictures/F2M.jpg'
+304.8159 	EXP 	image_2: autoDraw = True
+306.1719 	EXP 	image_2: autoDraw = False
+306.1719 	EXP 	text_3: text = 'Press ’o’ when seeing the same person with the same expression\n\nPress ’n’ when seeing the same person with different expression\n\nPress ‘space’ when ready'
+306.1719 	EXP 	text_3: autoDraw = True
+307.0726 	EXP 	Imported ImageAnsSet1.xlsx as conditions, 12 conditions, 2 params
+307.0733 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+307.0737 	EXP 	New trial (rep=0, index=0): {'ImageAnsShow': 'Pictures/F2M.jpg', 'Correct': 'o'}
+307.2234 	DATA 	Keypress: space
+307.2375 	EXP 	text_3: autoDraw = False
+307.2375 	EXP 	image: image = 'Pictures/F2M.jpg'
+307.2375 	EXP 	image: autoDraw = True
+308.5888 	EXP 	image: autoDraw = False
+308.5888 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+308.5888 	EXP 	text_2: autoDraw = True
+309.3051 	EXP 	New trial (rep=0, index=1): {'ImageAnsShow': 'Pictures/F3M.jpg', 'Correct': 'n'}
+309.4425 	DATA 	Keypress: o
+309.4562 	EXP 	text_2: autoDraw = False
+309.4562 	EXP 	image: image = 'Pictures/F3M.jpg'
+309.4562 	EXP 	image: autoDraw = True
+310.8368 	EXP 	image: autoDraw = False
+310.8368 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+310.8368 	EXP 	text_2: autoDraw = True
+311.3379 	EXP 	New trial (rep=0, index=2): {'ImageAnsShow': 'Pictures/M1M.jpg', 'Correct': 'n'}
+311.4865 	DATA 	Keypress: n
+311.5003 	EXP 	text_2: autoDraw = False
+311.5003 	EXP 	image: image = 'Pictures/M1M.jpg'
+311.5003 	EXP 	image: autoDraw = True
+312.7744 	DATA 	Keypress: n
+312.8548 	EXP 	image: autoDraw = False
+312.8548 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+312.8548 	EXP 	text_2: autoDraw = True
+314.9711 	EXP 	New trial (rep=0, index=3): {'ImageAnsShow': 'Pictures/F3A.jpg', 'Correct': 'o'}
+315.1361 	DATA 	Keypress: n
+315.1498 	EXP 	text_2: autoDraw = False
+315.1498 	EXP 	image: image = 'Pictures/F3A.jpg'
+315.1498 	EXP 	image: autoDraw = True
+316.4877 	EXP 	image: autoDraw = False
+316.4877 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+316.4877 	EXP 	text_2: autoDraw = True
+316.9544 	EXP 	New trial (rep=0, index=4): {'ImageAnsShow': 'Pictures/M3M.jpg', 'Correct': 'n'}
+317.0988 	DATA 	Keypress: o
+317.1123 	EXP 	text_2: autoDraw = False
+317.1123 	EXP 	image: image = 'Pictures/M3M.jpg'
+317.1123 	EXP 	image: autoDraw = True
+318.4865 	EXP 	image: autoDraw = False
+318.4865 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+318.4865 	EXP 	text_2: autoDraw = True
+318.9543 	EXP 	New trial (rep=0, index=5): {'ImageAnsShow': 'Pictures/F1M.jpg', 'Correct': 'n'}
+319.1030 	DATA 	Keypress: o
+319.1168 	EXP 	text_2: autoDraw = False
+319.1168 	EXP 	image: image = 'Pictures/F1M.jpg'
+319.1168 	EXP 	image: autoDraw = True
+320.4863 	EXP 	image: autoDraw = False
+320.4863 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+320.4863 	EXP 	text_2: autoDraw = True
+320.7891 	EXP 	New trial (rep=0, index=6): {'ImageAnsShow': 'Pictures/M2M.jpg', 'Correct': 'o'}
+320.9609 	DATA 	Keypress: o
+320.9741 	EXP 	text_2: autoDraw = False
+320.9741 	EXP 	image: image = 'Pictures/M2M.jpg'
+320.9741 	EXP 	image: autoDraw = True
+322.3208 	EXP 	image: autoDraw = False
+322.3208 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+322.3208 	EXP 	text_2: autoDraw = True
+322.7213 	EXP 	New trial (rep=0, index=7): {'ImageAnsShow': 'Pictures/M1A.jpg', 'Correct': 'o'}
+322.8595 	DATA 	Keypress: n
+322.8731 	EXP 	text_2: autoDraw = False
+322.8731 	EXP 	image: image = 'Pictures/M1A.jpg'
+322.8731 	EXP 	image: autoDraw = True
+324.2387 	EXP 	image: autoDraw = False
+324.2387 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+324.2387 	EXP 	text_2: autoDraw = True
+324.5884 	EXP 	New trial (rep=0, index=8): {'ImageAnsShow': 'Pictures/M3A.jpg', 'Correct': 'o'}
+324.7333 	DATA 	Keypress: o
+324.7469 	EXP 	text_2: autoDraw = False
+324.7469 	EXP 	image: image = 'Pictures/M3A.jpg'
+324.7469 	EXP 	image: autoDraw = True
+326.1049 	EXP 	image: autoDraw = False
+326.1049 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+326.1049 	EXP 	text_2: autoDraw = True
+326.5369 	EXP 	New trial (rep=0, index=9): {'ImageAnsShow': 'Pictures/M2A.jpg', 'Correct': 'n'}
+326.6848 	DATA 	Keypress: o
+326.6986 	EXP 	text_2: autoDraw = False
+326.6986 	EXP 	image: image = 'Pictures/M2A.jpg'
+326.6986 	EXP 	image: autoDraw = True
+328.0530 	EXP 	image: autoDraw = False
+328.0530 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+328.0530 	EXP 	text_2: autoDraw = True
+328.4035 	EXP 	New trial (rep=0, index=10): {'ImageAnsShow': 'Pictures/F1A.jpg', 'Correct': 'o'}
+328.5821 	DATA 	Keypress: o
+328.5955 	EXP 	text_2: autoDraw = False
+328.5955 	EXP 	image: image = 'Pictures/F1A.jpg'
+328.5955 	EXP 	image: autoDraw = True
+329.9361 	EXP 	image: autoDraw = False
+329.9361 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+329.9361 	EXP 	text_2: autoDraw = True
+330.2702 	EXP 	New trial (rep=0, index=11): {'ImageAnsShow': 'Pictures/F2A.jpg', 'Correct': 'n'}
+330.4392 	DATA 	Keypress: n
+330.4529 	EXP 	text_2: autoDraw = False
+330.4529 	EXP 	image: image = 'Pictures/F2A.jpg'
+330.4529 	EXP 	image: autoDraw = True
+331.7864 	EXP 	image: autoDraw = False
+331.7864 	EXP 	text_2: text = 'New ’n’\n\nor \n\nOld ‘o’'
+331.7864 	EXP 	text_2: autoDraw = True
+332.1910 	DATA 	Keypress: n
+332.2033 	EXP 	text_2: autoDraw = False
+332.2033 	EXP 	text_5: autoDraw = True
+334.2019 	EXP 	text_5: autoDraw = False
+334.2019 	EXP 	text_5: autoDraw = False
+334.7737 	EXP 	window1: mouseVisible = True
